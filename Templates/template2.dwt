@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>voting</title>
+<!-- TemplateEndEditable -->
+<style type="text/css">
+<!--
+body {
+	background-color: #999;
+	background-image: url(../images/bg1.jpg);
+}
+-->
+</style>
+<link href="../css/layout.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+a:link {
+	color: #F90;
+	text-decoration: none;
+}
+a:visited {
+	color: #F90;
+	text-decoration: none;
+}
+a:hover {
+	color: #06F;
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+</style>
+<script src="../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="../SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="header"><a href="../index.html"><img src="../images/banner.jpg" width="800" height="150" alt="logo" /></a></div>
+  <div id="navigation">
+  
+    <ul id="MenuBar1" class="MenuBarHorizontal">
+      <li><a href="../index.html">HOME</a></li>
+      <li><a href="#" class="MenuBarItemSubmenu">VOTER</a>
+        <ul>
+          <li><a href="../loginn.html">Login</a></li>
+          <li><a href="../registerrr.html">Register</a></li>
+          <li><a href="../manifestos.html">Manifestos</a></li>
+          <li><a href="../vote.php">Vote</a></li>
+        </ul>
+      </li>
+      <li><a class="MenuBarItemSubmenu" href="#">CANDIDATE</a>
+        <ul>
+          <li><a href="../loginn.html">login</a></li>
+          <li><a href="../registerrr.html">Register</a></li>
+          <li><a href="../manifestos.html">Manifesto</a></li>
+          <li><a href="../results.html">Results</a></li>
+        </ul>
+      </li>
+      <li><a href="#" class="MenuBarItemSubmenu">ADMIN</a>
+        <ul>
+          <li><a href="../login.html">Login</a></li>
+          <li><a href="../candidate.html">Candidate</a></li>
+          <li><a href="../comments.html">Comments</a></li>
+          <li><a href="../voting.html">Voting</a></li>
+        </ul>
+      </li>
+      <li><a href="#">CONTACT</a></li>
+      <li><a href="#">ABOUT US</a></li>
+    </ul>
+  </div>
+  <div id="bodyarea"><!-- TemplateBeginEditable name="main body" -->
+    <p>&nbsp;</p>
+    <p>Hi everyone!!! its time to vote for youToday, there is no nation where women and men are equals. Worldwide, women perform an estimated 60 percent of the work yet they earn only 10 percent of the income and own only 10 percent of the land. Two thirds of the world’s illiterate are women. Despite massive political changes and economic progress in countries throughout the world, gender based inequality is universal. Even where women have made important strides in politics and the professions, women’s overall progress remains uneven. In Kenya, despite governments effort to implement various gender policies, north eastern province still lags behind in women empowerment and access to basic education of good quality by girl-child. (Jacqueline, 2008, p.18)
+      Gender stratification refers to the hierarchical placement of the sexes that gives women unequal opportunities, resources and power. Sociologists treat gender as a feature of social structure. The mother-child relationship in a single mother relationship is often considered to be closer. Taking care and rearing the children become the main aims. </p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  <!-- TemplateEndEditable -->
+    <p>&nbsp;</p>
+  </div>
+  <div id="footer">
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>COPYRIGHT (C) 2011 BORU $ JOAN. ALL RIGHTS RESERVED</p>
+  </div></div>
+<script type="text/javascript">
+<!--
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+//-->
+</script>
+</body>
+</html>

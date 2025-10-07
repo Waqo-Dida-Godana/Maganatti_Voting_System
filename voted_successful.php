@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>voter</title>
+<style type="text/css">
+body {
+	width:100%;
+	text-align:center;
+	background: url('images/bg3.jpg');
+}
+</style>
+<link href="css/layout.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+a:link {
+	color: #F90;
+	text-decoration: none;
+}
+a:visited {
+	color: #F90;
+	text-decoration: none;
+}
+a:hover {
+	color: #06F;
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+#layer1{
+	background: url('images/bg2.jpg');
+	-moz-border-radius:5px; /* Firefox */
+    border-radius:5px;
+	-webkit-box-shadow: 3px 3px 3px #00FFFF; /* Safari and Chrome */
+}
+#logo{
+	background: url('images/logo.png') center;
+	background-repeat:no-repeat;
+	margin-top:30px;
+	padding:70px;
+	
+	
+}
+</style>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="wrapper" >
+  <div id="logo">
+		</div>
+		<div id = "layer1">
+		<header id="top_header">
+			<h1>ONLINE VOTING SYSTEM</h1>
+			<h2>AFRICA NAZARENE UNIVERSITY STUDENT COUNCIL</h2>
+		</header>
+		</div>
+  <div style="margin-left:500px" id="navigation">
+  
+    <ul id="MenuBar1" class="MenuBarHorizontal">
+	  <li><a href="add_comment.html">ADD COMMENTS</a></li>	     
+      
+      <li><a href="aboutus.php">VIEW RESULTS</a></li>
+	  
+	  <li><a href="home.html">HOME</a></li>
+    </ul>
+  </div>
+  <div id="bodyarea">
+    <p>&nbsp;</p>
+ 
+
+    <p>&nbsp;</p>
+   
+<table class="form" cellpadding="10" align="center">
+ 
+<tr class="head">
+<td colspan="2" align="center"><label style="color:pink"><b>YOU HAVE SUCCESSFULLY VOTED</br>PLEASE CLICK THE LINKS</b></td>
+</tr>
+  <div id="footer" style="margin-left:150px">
+  </div>
+   </div>
+<script type="text/javascript">
+
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>

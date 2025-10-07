@@ -1,0 +1,52 @@
+/* STANDARD TAG REDEFINITIONS */
+BODY{ color: blue; font-family: Arial, Helvetica, sans-serif; font-size: 10pt; background-color: #581a01; margin: 0; padding: 0; }
+TD {font-size: 10pt;  }
+p { font-size: 10pt;  margin-bottom: 7px; margin-top: 0; }
+a{ color: #8BE4FC; text-decoration: none; }
+a:hover{	text-decoration: underline;  color: White;   }
+h1, h2, h3, h4, h5{	font-family: "trebuchet ms",arial,tahoma,verdana,sans-serif; letter-spacing: .005em; margin:0 0 1em 0; padding:0;}
+form{	margin:0;}
+
+#TOPNAV{ margin-left: auto; margin-right: auto; text-align: right; width: 760px; font-size: 10px; font-family: "MS Sans Serif", Geneva, sans-serif; padding: 0; margin-bottom: 0; margin-top: 0;  }
+	#TOPNAV div{ float: right;  padding-bottom:21px; }
+	#TOPNAV a{ height: 20px; line-height:20px; margin: 0; color: #eeeeee; background-repeat: no-repeat; background-position: left;  padding: 0 8px 0 23px;  display: block;  float: left;      }
+	#TOPNAV a.Home{ background-image: url(ico_home.gif); }
+	#TOPNAV a.Contact{ background-image: url(ico_email.gif); }
+	#TOPNAV a.Map{ background-image: url(ico_map.gif); }
+	#TOPNAV a.Active{ background-color: #FE9B00; color:white; }
+	#TOPNAV a:hover{background-color: #545454; color:white; text-decoration: none;}
+	#TOPNAV a.Active:hover{ background-color: #FFB13C;}
+
+#HEADER{	width:760px; margin-left:auto; margin-right:auto; clear:both; }
+	#HEADER ul{ margin: 0; padding-left: 0; height: 44px; line-height: 44px; display: block; list-style: none; background-color: #4D4D4D; background-image: url(bg_topnav.gif); background-repeat: no-repeat;  }
+	#HEADER li{ display: inline; background-color: #222222;  float: right;  }
+	#HEADER li a{ height: 44px; line-height: 44px; display: block; padding-left: 27px; padding-right: 27px; border-left: 1px solid Black;  float: left;     }
+	#HEADER li a:hover{ background-color: #444444; text-decoration: none;}
+	#HEADER .Visual{ height:130px; background-image: url(vote.gif);  background-repeat: no-repeat;  background-color: #4492C8;  border-top: 3px solid Black;   }
+	#HEADER h1{ margin: 0; padding: 0 0 0 36px; font-weight: normal;  color: White;  font-size: 20pt;  background-image: url(logo.gif);  background-position: left;  background-repeat: no-repeat;     }
+	#HEADER h1 a, #HEADER h1 a:hover{ color: white; text-decoration: none;}
+
+#CONTENT{ width:760px; margin-left:auto; margin-right:auto;  margin-top:47px;  }
+	#CONTENT .Wrapper{ float: left; background-color: #222222; border-bottom: 1px solid #484848; border-top: 1px solid #484848; background-image: url(bg_page.gif); }
+
+#TEXT{ padding: 0px; float:right; width:480px; padding-right:31px;  }
+	#TEXT h2{ margin: 30px 0 10px 0; padding: 0; font-weight: normal; color: White; font-size: 15pt; }
+	#TEXT h2.Top{ border-bottom: 5px solid #76DEFC;  position:relative; top: -27px; margin-bottom: 4px; margin-top:0; }
+	#TEXT p{	margin-bottom: 1em; line-height:1.4em;}
+	#TEXT td{line-height:1.4em;}
+
+#SIDE{ width: 170px; padding: 0 31px 0 31px; float: left; display: block;  padding-bottom: 3em;  }
+	#SIDE h2{ font-weight: normal; color: White; font-size: 15pt; border-bottom: 5px solid #FE9B00;  margin-top: 2em;  }
+	#SIDE h2.Top{ position:relative; top: -27px; margin-bottom:-27px; margin-top:0; }
+	#SIDE a{ color: #FDAD00; }
+	#SIDE a:hover{	color:white;}
+	#SIDE .Date{ display: block; padding-top: 27px; color: #FDAD00; font-size: 9px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-weight: bold;  padding-bottom: 5px;  }
+	#SIDE p{ font-size: 10px;  font-family: "MS Sans Serif", Geneva, sans-serif;  color: #ECECEC;   }
+	#SIDE p.More{ background-image: url(bg_hdot.gif); background-position: bottom; background-repeat: repeat-x;  text-align: right;  padding-bottom: 18px;   }
+
+#FOOTER{	clear:both; width:760px; margin-left:auto; margin-right:auto; padding-top:18px; }
+	#FOOTER .Wrapper{ padding-top: 5px; padding-bottom: 15px; border-top: 4px solid #363636; text-align: right;  }
+	#FOOTER p{ font-size: 11px; line-height: 14px; margin: 0;  color: #CCCCCC; }
+	#FOOTER a{ font-size: 11px; font-weight: normal; text-decoration: none; color: #8F8F8F; }
+	#FOOTER a:hover{ color: white; text-decoration: underline; }
+
